@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: ;
+}
+body{
+   
+    font-family: sans-serif;
+    
+    margin: auto;
+    
+}
+.menu-bar{
+   text-align: center;
+    width: 100%;
+     opacity: 0.8;
+    position: fixed;
+    background-color: white;
+    z-index: 1;  
+
+}
+
+
+/* menude yazılar ortaya gelir*/
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+}
+
+.menu-bar ul li{
+    margin: 25px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
+
+.web{
+    text-align: center;
+    margin-right: 150px;
+}
+
+.logo{
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.8;
+    width: 161px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.icon{
+    float:  left;
+    width: 250px;
+    margin-right: 100px;
+    
+}
+
+ion-icon {
+    font-size: 25px;
+  }
+
+.ikonlar{
+    margin-top: 25px;
+    margin-left: 100px;
+
+}
+
+.ayur{
+    
+    text-align: center;
+}
+
+
+.footer p{
+    padding-top: 20px;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 75px;
+   color: white;
+}
+
+.medlogo{
+    
+  
+   margin-left: 25px;
+    width: 100px;
+    float: left;
+
+}
+
+.iletisim{
+    border-top: 1px solid black;
+    margin-top: 75px;
+    background-color: blue;
+   
+}
+
+.iletisim img{
+    margin-left: 100px;
+    float: left;
+}
+
+
+
+.iletişim-icon{
+    margin-right: 15px;
+}
+
+
+.iletişim-icon ionicons{
+  width: 50px;
+
+}
+
+.iletisim-paragraf{
+  float: right;
+width: 350px;
+margin-right: 100px;
+  
+}
+
+ion-icon {
+    color: red;
+    
+  }
+
+.iletisim-kategoriler{
+    float: left;
+    display: inline-block;
+    width: 250px; 
+    
+  }
+
+ 
+
+  .iletisim-kategoriler li a{
+    color: black;
+  }
+
+
+  .iletisim .nav-link:hover{
+    color: red;
+    
+  }
+
+.iletisim ion-icon{
+    height: 25px;
+    margin-top: 15px;
+}
+
+.icon-inner{
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.iletisim-paragraf p{
+    margin-bottom: 25px;
+}
+
+.logo-yazi{
+    display: inline-block;
+    width: 550px;
+    margin-top: 10px;
+    padding-right: 25px;
+}
+
+.resim-galerisi{
+    margin-top: 100px;
+    
+}
+
+.resim-galerisi2{
+    margin-top: 22px;
+}
+
+.bilgi{
+    display: flex;
+    background-color: #ddd;
+    height: 200px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.res{
+    width: 280px;
+    height:200px ;
+}
+
+.model{
+    
+    width: 155px;
+    height:200px ;
+    float: left;
+    background-color: black;
+    margin-right: 0px;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    margin-right: 15px;
+    color: white;
+}
+
+.model2{
+    
+    width: 155px;
+    height:200px ;
+    float: right;
+    background-color: black;
+    margin-right: 0px;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    margin-right: 15px;
+    color: white;
+}
+
+.model2 p{
+    margin-top: 55%;
+    text-align: center;
+}
+   
+
+
+.model p{
+    margin-top: 55%;
+    text-align: center;
+}
